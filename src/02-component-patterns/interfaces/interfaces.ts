@@ -25,3 +25,9 @@ import { Props as ProductButtonsProps } from "../components/ProductButtons";
     Image: ( Props : ProductImageProps ) => JSX.Element;
     Title: ( Props : ProductTitleProps ) => JSX.Element;
   }
+
+
+  export interface onChangeArgs {
+    product: Product;
+    count: number;
+  }
